@@ -7,6 +7,7 @@
 # Table of Contents
 
 - [What Is NewProject.JS](#newproject.js)
+- [NewProject.JS featuees](#features)
 - [Installation and Usage](#usage)
 - [Version Distribution](#versions)
 
@@ -15,10 +16,19 @@
 
 A small Node.JS CLI script that automatically creates a new project, `package.json`, `index.js` and `README.md` files for you!
 
+# Features
+
+Currently, NewProject.JS has a small set of features, that, with multiple updates in the future, could support even more
+- Create a new directory
+    - Create an `index.js`, `package.json` and `README.md` files inside the directory
+    - Open Visual Studio Code after creating the directory and files
+- Runs in any path
+- Lightweight to an extent
+
 # Usage
 
 Run `npm i -g @andremont0101/newproject.js`\
-Use NewProject.JS by running the CLI script inside the directory where you want to make the project with `newproject` and typing the desired project name when prompted
+Use NewProject.JS by running the CLI script inside the directory where you want to make the project with `newproject` and typing the desired project name when prompted (cannot contain spaces otherwise VSCode will open individual files per each space and not actually the directory.)
 
 # Versions
 
@@ -45,3 +55,7 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
     - The creator.createDir() function now also creates a README.md!
         - 1.1.1 - Hotfix
             - Forgot to update the description in the README.md
+
+## - 1.2.0 -
+    - Added the external.js lib, currently with the `openCode();` function.
+    VSCode is automatically opened once you create a new project with NewProject.JS
