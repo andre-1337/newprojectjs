@@ -22,9 +22,9 @@ console.log(
 );
 
 const run = async () => {
+    await updater.checkForUpdate();
     const { projectName } = await inquirer.askForProjectName();
     creator.createDir(projectName);
-    updater.checkForUpdate();
 }
 
 run();
