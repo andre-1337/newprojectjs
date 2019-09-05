@@ -17,7 +17,7 @@ A small Node.JS CLI script that automatically creates a new project, `package.js
 
 ## Usage
 
-Run `npm i -g newproject.js`\
+Run `npm i -g @andremont0101/newproject.js`\
 Use NewProject.JS by running the CLI script inside the directory where you want to make the project with `newproject` and typing the desired project name when prompted
 
 ## Versions
@@ -35,3 +35,5 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
     - Added an update checking function created from scratch to warn users about possible new releases.
         - 1.0.3 - Hotfix
             - Just moved the updater function to the beggining of the code and deleted unnecessary imports.
+        - 1.0.4 - Hotfix
+            - Fixed a typo in the README.md and the updater.js files
