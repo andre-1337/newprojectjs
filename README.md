@@ -37,3 +37,5 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
             - Just moved the updater function to the beggining of the code and deleted unnecessary imports.
         - 1.0.4 - Hotfix
             - Fixed a typo in the README.md and the updater.js files
+        - 1.0.5 - Hotfix
+            - Fixed even more typos and an issue with checkForUpdate() running twice.
