@@ -13,7 +13,7 @@
 
 # NewProject.JS
 
-A small Node.JS CLI script that automatically creates a new project, `package.json` and `index.js` for you!
+A small Node.JS CLI script that automatically creates a new project, `package.json`, `index.js` and `README.md` files for you!
 
 # Usage
 
@@ -43,3 +43,5 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
 
 ## - 1.1.0 -
     - The creator.createDir() function now also creates a README.md!
+        - 1.1.1 - Hotfix
+            - Forgot to update the description in the README.md
