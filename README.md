@@ -22,8 +22,6 @@ Currently, NewProject.JS has a small set of features, that, with multiple update
 - Create a new directory
     - Create an `index.js`, `package.json` and `README.md` files inside the directory
     - Open Visual Studio Code after creating the directory and files
-- Runs in any path
-- Lightweight to an extent
 
 # Usage
 
@@ -59,3 +57,5 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
 ## - 1.2.0 -
     - Added the external.js lib, currently with the `openCode();` function.
     VSCode is automatically opened once you create a new project with NewProject.JS
+        - 1.2.1 - Hotfix
+            - Fixed a typo in `README.md`
