@@ -32,6 +32,6 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
 
 # Changelog
 
-## 1.3.0
+## 1.3.1
 - Fixed an issue with the auto-generated `package.json` not being used by NPM to define the installed packages
     - Created a new `external.createPackageJSON()` function
