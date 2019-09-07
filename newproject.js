@@ -6,6 +6,7 @@
 const chalk = require('chalk');
 const clear = require('clear');
 const figlet = require('figlet');
+const argv = require('yargs').argv;
 
 // Requiring vital /lib/ packages
 const inquirer = require('./lib/inquirer');
