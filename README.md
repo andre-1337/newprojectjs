@@ -17,7 +17,7 @@
 
 # NewProject.JS
 
-A small Node.JS CLI script that automatically creates a new project, `package.json`, `index.js` and `README.md` files for you!
+A small Node.JS CLI script that automatically creates a new project, `package.json`, `index.js` and `README.md` files for you, initializes an empty Git repository and adds a neat `.gitignore` file!
 
 # Features
 
@@ -26,7 +26,10 @@ Currently, NewProject.JS has a small set of features, that, with multiple update
     - Create an `index.js`, `package.json` and `README.md` files inside the directory
     - Open Visual Studio Code after creating the directory and files
 - Initializes an empty Git repository
-    - Adds a .gitignore file ignoring '/node_modules' and './vs'
+    - Adds a .gitignore file ignoring `/node_modules` and `/.vs`
+- Self updating feature
+    - You can update NewProject.js by running `newproject --update` 
+        - !! Only works on versions counting from 1.5.0 !!
 
 # Usage
 
@@ -35,11 +38,5 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
 
 # Changelog
 
-## 1.4.2
-- Fixed an issue with the auto-generated `package.json` not being used by NPM to define the installed packages
-- Added Git support
-    - An empty GitHub repository is now started in the new project folder
-    - A .gitignore file is automatically created and auto ignores /node_modules and /.vs
-- Fixed a typo in the README
-- Updated the updater.checkForUpdate() function.
-- Finally gave use to yargs, you can now check your current version by typing `newproject --version`
+## 1.5.0
+- You can now update NewProject.JS by running `newproject --update`
