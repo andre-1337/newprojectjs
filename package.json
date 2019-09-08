@@ -1,6 +1,6 @@
 {
   "name": "@andremont0101/newproject.js",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "A simple CLI script to create a new directory for your next amazing project!",
   "main": "newproject.js",
   "scripts": {

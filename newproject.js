@@ -16,11 +16,9 @@ const creator = require('./lib/creator');
 const updater = require('./lib/updater');
 const external = require('./lib/external');
 
-// Requiring the auto-updater file
-const autoUpdate = require('./update/autoUpdate');
-
 // Auto updating NewProject.JS
-if (argv.update) {
+if (!argv.update) {
+} else {
     external.updateNewProjectJS();
 }
 
