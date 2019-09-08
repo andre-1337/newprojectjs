@@ -38,7 +38,7 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
 
 # Changelog
 
-## 1.5.3
+## 1.5.4
 - You can now update NewProject.JS by running `newproject --update`
 - Updated `updater.checkForUpdate()`
 - Fixing an issue with the new self updater running automatically (not intended)

@@ -1,18 +1,18 @@
 {
   "name": "@andremont0101/newproject.js",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "A simple CLI script to create a new directory for your next amazing project!",
   "main": "newproject.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "node update/autoUpdate.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/Link-Byte/newprojectjs.git"
   },
   "bin": {
-    "newproject": "./newproject.js"
+    "newproject": "./newproject.js",
+    "newproject-update": "./update/autoUpdate.js"
   },
   "author": "Link-Byte/andremont0101",
   "license": "MIT",
