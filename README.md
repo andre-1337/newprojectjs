@@ -30,6 +30,8 @@ Currently, NewProject.JS has a small set of features, that, with multiple update
 - Self updating feature
     - You can update NewProject.js by running `newproject-update` 
         - !! Only works on versions counting from 1.5.0 !!
+        - Updates the package easily, and without all that messy NPM output!
+        - Makes the operator task easier, making updates faster and better
 
 # Usage
 
@@ -38,7 +40,7 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
 
 # Changelog
 
-## 1.5.7
+## 1.5.8
 - You can now update NewProject.JS by running `newproject-update`
 - Updated `updater.checkForUpdate()`
 - Fixing an issue with the new self updater running automatically (not intended)
