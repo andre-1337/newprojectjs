@@ -45,3 +45,4 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
 - Updated `updater.checkForUpdate()`
 - Fixing an issue with the new self updater running automatically (not intended)
 - Fixing issues with the self updater
+- Fixed a missing shebank and missing link for the `newproject-update`
