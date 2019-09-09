@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const chalk = require('chalk');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
