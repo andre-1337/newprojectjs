@@ -1,5 +1,5 @@
 #!/usr/bin/env node
- // newproject.js by Link-Byte
+// newproject.js by Link-Byte
 // Creates a new directory wherever you run the script, alongside a package.json file and an index.js
 
 // Requiring vital NPM packages
