@@ -17,10 +17,10 @@ const updater = require('./lib/updater');
 const external = require('./lib/external');
 
 // Auto updating NewProject.JS
-if (!argv.update) {
-} else {
-    external.updateNewProjectJS();
-}
+//if (!argv.update) {
+//} else {
+//    external.updateNewProjectJS();
+//}
 
 clear();
 console.log(

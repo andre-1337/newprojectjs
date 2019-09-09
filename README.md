@@ -28,7 +28,7 @@ Currently, NewProject.JS has a small set of features, that, with multiple update
 - Initializes an empty Git repository
     - Adds a .gitignore file ignoring `/node_modules` and `/.vs`
 - Self updating feature
-    - You can update NewProject.js by running `newproject --update` 
+    - You can update NewProject.js by running `newproject-update` 
         - !! Only works on versions counting from 1.5.0 !!
 
 # Usage
@@ -38,7 +38,7 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
 
 # Changelog
 
-## 1.5.4
+## 1.5.5
 - You can now update NewProject.JS by running `newproject --update`
 - Updated `updater.checkForUpdate()`
 - Fixing an issue with the new self updater running automatically (not intended)
