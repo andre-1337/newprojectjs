@@ -38,7 +38,8 @@ Use NewProject.JS by running the CLI script inside the directory where you want 
 
 # Changelog
 
-## 1.5.5
-- You can now update NewProject.JS by running `newproject --update`
+## 1.5.6
+- You can now update NewProject.JS by running `newproject-update`
 - Updated `updater.checkForUpdate()`
 - Fixing an issue with the new self updater running automatically (not intended)
+- Fixing issues with the self updater
